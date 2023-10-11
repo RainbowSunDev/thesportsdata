@@ -11,8 +11,8 @@ async def get_data():
     file_path = 'output.csv' 
 
     # Prepare a list to store output data
-    # user="ecentrix"
-    # secret="c9db4c7ba3b10baa47207889e206f95b"
+    user="ecentrix"
+    secret="c9db4c7ba3b10baa47207889e206f95b"
     detail_live_url = f'https://api.thesports.com/v1/football/match/detail_live?user={user}&secret={secret}'  
     match_list_url = "https://api.thesports.com/v1/football/match/recent/list?user=ecentrix&secret=c9db4c7ba3b10baa47207889e206f95b&uuid="
     team_list_url = "https://api.thesports.com/v1/football/team/additional/list?user=ecentrix&secret=c9db4c7ba3b10baa47207889e206f95b&uuid="
